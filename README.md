@@ -37,6 +37,10 @@ CH552 and ESP8266 connection
 ----------------------------
 There is a schematic of an example connection in the 'schematic' directory.
 
+**IMPORTANT**: ESP runs on 3.3V therefore you have to run CH552 also on 3.3V !
+Please note that when CH552 runs on 3.3V then the maximum CPU speed is 16 MHz
+(not the regular 24Mhz). This CPU speed is set in the project makefile. 
+
 Q&A
 ---
 Q: what is the origin of the ESP uploader app code?
