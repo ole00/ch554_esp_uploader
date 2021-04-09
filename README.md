@@ -50,5 +50,5 @@ A: yes, uploading uses 115200 baud rate (~10kbytes/s) and does not use compressi
    does not support compression, and the advanced upload techniques (using the upload stubs) are not used.
    This upload mechanism is not meant for frequent development uploads, but rather as a way how to
    allow hasle-free and inferquent FW upgrades of your product by a non-technical user (providing that
-   your PC app will provide some user friendly FW upgrade interface).
+   your PC app will implement some user friendly FW upgrade interface).
    
